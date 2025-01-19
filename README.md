@@ -1,0 +1,3 @@
+# Scala FoldLeft Type Mismatch with Integer Concatenation
+
+This example demonstrates a common error when using Scala's `foldLeft` method: attempting to directly concatenate integers without explicit type conversion.  The code attempts to concatenate integers into a string, leading to a type mismatch error. The solution showcases how to correctly perform this operation by converting integers to strings before concatenation. 
